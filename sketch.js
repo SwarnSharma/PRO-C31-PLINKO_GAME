@@ -56,7 +56,7 @@ function draw() {
     divisions[k].display();
   }
 
-  if(frameCount%60===0){
+  if(frameCount%80===0){
     particles.push(new balls(random(250, 550), 50));
     particle++;
   }
